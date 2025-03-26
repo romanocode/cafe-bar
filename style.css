@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+  background-color: #fceedc;
+  font-family: 'syne'; 
+}
+
+.nav{
+    width: auto;
+    height: auto;
+    border: 1px solid #ffffff ;
+    background-color: #c7a17a;
+}
+
+.nav-bar{
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.menu li a{
+    padding: 7px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: black;
+    border: 2px solid white;
+}
+
+.menu li a:hover{
+   background-color: #ffffffb2;
+    border: 2px solid black;
+}
+
+.logo{
+    width: 150px;
+    height: auto;
+}
+
+
+
+.slider {
+    width: 1180px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 300%; 
+    list-style: none;
+    position: relative;
+    animation: slide 12s infinite alternate ease-in-out;
+}
+
+.slider li {
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: 600px; 
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+@keyframes slide {
+    0% { margin-left: 0%; }
+    30% { margin-left: 0%; }
+
+    35% { margin-left: -100%; }
+    65% { margin-left: -100%; }
+
+    70% { margin-left: -200%; }
+    100% { margin-left: -200%; }
+}
+
+.title2{
+    display: flex;
+   justify-content: center;
+   color: black;
+   background-color:#c7a17a ;
+   padding: 10px 0 10px 0;
+   margin: 20px 0 10px 0;
+}
+
+.our-Regions{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: #c7a17a;
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    
+}
+
+.card:hover{
+    cursor: pointer;
+    background-color: #d7a777;
+    box-shadow: 10px 5px 5px #ffb66e;
+}
+
+.card-image{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card p{
+    color: #ffffff;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.menu button{
+    background-color: #c7a17a;
+    padding: 7px 15px 7px 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    border: 2px solid #df852b;
+}
+
+.menu button a{
+    color: #121212;
+    font-size: 18px;
+}
+
+.why-Coffe{
+    display: flex;
+    gap: 40px;
+    margin: 20px 10pc 20px 10px;
+
+}
+
+.coffe{
+    width: 50%;
+    height: auto;
+}
+
+.description{
+    width: 50%;
+}
+
+.description h3{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+.coffe img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.nav-footer{
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ffffff ;
+    background-color: #c7a17a;
+}
